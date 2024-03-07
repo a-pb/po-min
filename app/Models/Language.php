@@ -10,8 +10,12 @@ class Language extends Model
 {
     use HasFactory;
 
-    public function loaded(): HasMany
-    {
-        return $this->hasMany(LanguagesLoaded::class, 'language_id', 'id');
-    }
+    protected $fillable = [
+        'name',
+        'code',
+    ];
+
+    protected $guarded = [
+        'id'
+    ];
 }
