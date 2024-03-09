@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+@import "./home.css";
+
+/**
+
+Paleta kolorów:
+- #0A1B2A - ciemny niebieski
+- #5C9CD8 - jasny niebieski
+- #FCA780 - pomarańczowy
+- #1F4F7A - granatowy jasny
+- #FEFEFE - biały
+ */
+
+body {
+    background-image: url('../images/bg-faded.jpg');
+
+    background-color: #0A1B2A;
+    background-size:100vw;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Okienka */
+.cart {
+    background-color: #5C9CD8;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Przyciski */
+.button {
+    background-color: #FCA780;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FFB997;
+}
+
+/* CTA (Call to Action) */
+.cta {
+    background-color: #1F4F7A;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.cta:hover {
+    background-color: #355F8D;
+}
+
+/* Nagłówki */
+h1 {
+    color: #FEFEFE;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #FEFEFE;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #FEFEFE;
+    font-size: 1.8rem;
+}
+
+h4 {
+    color: #FEFEFE;
+    font-size: 1.6rem;
+}
+
+h5 {
+    color: #FEFEFE;
+    font-size: 1.4rem;
+}
+
+h6 {
+    color: #FEFEFE;
+    font-size: 1.2rem;
+}
+
+/* Przyciski - Primary */
+.btn-primary {
+    background-color: #FCA780;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #FFB997;
+}
+
+/* Przyciski - Secondary */
+.btn-secondary {
+    background-color: #1F4F7A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #355F8D;
+}
+
+/* Przyciski - Outline */
+.btn-outline {
+    background-color: transparent;
+    color: #5C9CD8;
+    padding: 10px 20px;
+    border: 2px solid #5C9CD8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    background-color: #5C9CD8;
+    color: #fff;
+}
+
+/* Przyciski - Disabled */
+.btn-disabled {
+    background-color: #ccc;
+    color: #999;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+    background-color: #ccc;
+    color: #999;
+}
+
+.login-form {
+    max-width: 350px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
