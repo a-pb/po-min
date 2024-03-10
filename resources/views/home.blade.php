@@ -9,11 +9,13 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <div class="welcome-container">
-                    <div class="">
-                        <h1 class="mb-4">Witaj w</h1>
-                        <img src="/build/assets/images/logotyp.png" title="Logotyp">
-                        <h3 class="mb-4 mt-4">Aplikacja PoMin to doskonałe narzędzie do zarządzania translacjami w twoim systemie. Zorganizuj swoje po-edity już dziś!</h3>
-                        <a href="{{ route('login') }}" class="btn btn-primary">Zaloguj się</a>
+                    <div class="d-flex flex-column">
+                        <h1 class="mb-2">Witaj w</h1>
+                        <img class="img-fluid" src="{{ asset('/images/logotyp.png') }}" title="Logotyp">
+                        <h4 class="mb-4 mt-4">To innowacyjne narzędzie dedykowane do zarządzania plikami po-edit, które są kluczowe dla przechowywania tłumaczeń serwisu. Zorganizuj swoje po-edity już dziś!</h4>
+                        <div class="col-md-12">
+                            <a href="{{ route('login') }}" class=" btn btn-primary mr-0 align-right">Zaloguj się</a>
+                        </div>
                     </div>
                 </div>
             </div>

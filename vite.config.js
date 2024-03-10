@@ -24,31 +24,23 @@ export default defineConfig({
                 },{
                     src: 'node_modules/moment/min/*',
                     dest: '../assets/vendor/moment'
-                },{
-                    src: 'node_modules/bootstrap/*',
-                    dest: '../assets/vendor/bootstrap'
                 },
 
                 // COPY RESOURCES
                 {
                     src: 'resources/files/*',
-                    dest: '../assets/files'
+                    dest: '../files'
                 },{
                     src: 'resources/fonts/*',
-                    dest: '../assets/fonts'
+                    dest: '../fonts'
                 },{
                     src: 'resources/images/*',
-                    dest: '../build/assets/images'
+                    dest: '../images'
                 }
             ]
         })
     ],
     build: {
-        // assetsInlineLimit: 0,
-        // manifest: true,
-        // copyPublicDir: false,
-        // outDir: 'public/',
         assetsDir: '',
-        // ssrManifest: false
     }
 });
