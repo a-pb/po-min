@@ -1,6 +1,11 @@
 {
-    "private": true,
+    "name": "po-min",
+    "private": false,
     "type": "module",
+    "author": {
+        "email": "olowadrian@gmail.com",
+        "name": "a-pb"
+    },
     "scripts": {
         "prod": "npx npm-dependency-exclusion && vite build"
     },
