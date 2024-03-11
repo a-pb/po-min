@@ -7,12 +7,8 @@
                 <form class="login-form">
                     <h2 class="text-center mb-4">Logowanie</h2>
                     <div class="mb-3">
-                        <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputPassword" class="form-label">Hasło</label>
-                        <input type="password" id="inputPassword" class="form-control" placeholder="Hasło" required>
+                        <label for="project_name" class="form-label">Nazwa projektu</label>
+                        <input type="text" id="project_name" class="form-control" placeholder="Nazwa projektu" required autofocus>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="rememberMe">
