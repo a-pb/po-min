@@ -10,6 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("Liczba załadowynych plików") }}: {{ $files->count() }}
+                    {{ __("Rozmiar załadowanych plików") }}: {{ $files->count() }}
                 </div>
             </div>
         </div>
